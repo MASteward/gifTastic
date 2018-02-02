@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #3D9970;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+
+}
+
+.gifBtns{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 10px;
+}
+
+.dogGif{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	margin
+}
+
+
+#gifArea {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 2fr;
+	text-align: center;
+	grid-gap: 5px;
+	margin-top: 20px;
+
+}
+.gifItem{
+	background-color: rgba(255, 255, 255, .4);
+	padding-top: 20px;
+}
